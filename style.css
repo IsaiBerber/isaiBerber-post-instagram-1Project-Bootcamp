@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Post {
+    width: 500px;
+    height: 800px;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+    position: relative;
+}
+.html-icon {
+    width: 34px;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.text-one h4 {
+   position: absolute;
+   margin-top: 12px;
+   left: 50px;
+}
+.text-one p {
+    position: absolute;
+    left: 50px;
+    margin-top: 31px;
+}
+.points {
+    position: absolute;
+    font-size: 33px;
+    top: 10px;
+    right: 10px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
+.post-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 60px;
+}
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.left-icons {
+  display: flex;
+  gap: 15px;
+}
+.post-body {
+  padding: 10px;
+  line-height: 1.4;
+}
